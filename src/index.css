@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+body {
+  text-align: center;
+  background-color: #1b2034;
+  color: #fff;
+}
+
+.app {
+  padding: 2rem 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+input {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: #eee;
+  width: 100%;
+  max-width: 300px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+button,
+a {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #2bcb4b;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+img {
+  display: block;
+  margin-left: 33rem;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 280px;
+  margin: 2 rem;
+
+}
+
+/* Media queries */
+
+
+/* For tablets and small desktops */
+@media (max-width: 768px) {
+  .app {
+    padding: 1.5rem 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+
+  input {
+    max-width: 250px;
+    margin-right: 0.5rem;
+  }
+
+  button,
+  a {
+    font-size: 1.25rem;
+  }
+
+  img {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+  }
+}
+
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .app {
+    padding: 1rem 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+    margin: 0.25rem;
+  }
+
+  input {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  button,
+  a {
+    font-size: 1rem;
+  }
+
+  img {
+    max-width: 150px;
+    margin-top: 1rem;
+  }
+}
